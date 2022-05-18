@@ -22,6 +22,7 @@ ___
 B1
 ___
 ### Code example
+```
 #include <iostream>
 #include <cstdlib>
 using namespace std;
@@ -90,6 +91,5 @@ int main(int argc, char* argv[]) {
 	return 0;
 }
 
-C++  
-Find a multiplication of two matrixes  
+
 ```
