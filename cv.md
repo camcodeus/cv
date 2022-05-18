@@ -15,3 +15,5 @@ ___
 * Adobe photoshop
 * Adobe After Effects
 ___
+### Education
+IT Manager, 1 grade, VSU named after P. M. Masherov
