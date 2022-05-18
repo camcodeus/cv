@@ -87,7 +87,6 @@ int main(int argc, char* argv[]) {
 		cout << "Program need parametr\n";
 		cerr << "Program need parametr\n";
 	}
-	system("pause");
 	return 0;
 }
 
