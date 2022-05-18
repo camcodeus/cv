@@ -17,3 +17,6 @@ ___
 ___
 ### Education
 IT Manager, 1 grade, VSU named after P. M. Masherov
+___
+### English level
+B1
