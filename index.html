@@ -1,1 +1,119 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="wrap">
+    <header class="header">
+        <div class="container-header-container">
+            <nav class="nav">
+                <ul class="nav list">
+                             <a href="#aboutme" class="nav-link">About me</a>
+                             <a href="#skills" class="nav-link">Skills</a>
+                             <a href="#education" class="nav-link">Education</a>
+                             <a href="#projects" class="nav-link">Projects</a>
+                             <a href="#code" class="nav-link">Code</a>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <main class="main">
+            <div class="container main-container">
+                <section class="section section-profile" id="profile">
+                    <img src="assests\img\kotik-012b2.jpg" alt="Vlad" class="section-profile-logo">
+                    <div class="section-profile-title">
+                        <h1 class="section-title main-title">Vladislav Samsonov</h1>
+                        <h3 class="section-subtitle">Student at the Faculty of Mathematics and Information Technology, P.M. Masherov Vitebsk State University </h3>
+                    </div>
+                </section>
+                <section class="section" id="contacts">
+                   <h2 class="section-title">Contacts</h2>  
+                    <ul class="section-list">
+                         <div class="blok2" id="contacts">
+                        <li class="section-item contacts-item">
+                            Vitebsk, Belarus
+                        </li>
+                        <li class="section-item contacts-item">
+                            Email: 
+                            <a href="mailto:camconov2000@gmail.com" title="email">
+                                camconov2000@gmail.com
+                            </a>
+                        </li>
+                      <li class="section-item contacts-item">
+                          Github: 
+                          <a href="https://github.com/camcodeus" title="github">
+                              camcodeus
+                          </a>
+                      </li>
+                      <li class="section-item contacts-item">
+                          Telegram: 
+                          <a href="https://web.telegram.org/k/" title="telegram">
+                              @b0nexxy
+                          </a>
+                      </li>
+                    </ul>
+                </div>
+                </section>
+                <section class="section" id="aboutme">
+                    <h2 class="section-title">About me</h2>
+                    <p>
+                        In 2021 I entered Vitebsk State University, majoring in Information Resources Management. During the first year I studied such disciplines as "Computer graphics", where I studied methods of digital synthesis and visual content manipulation; "Algorithmization and programming", where I studied basics of C++ language; "Computer systems architecture", where I studied principles of organization of software and hardware tools and their characteristics, which determine functional capabilities of computer when solving corresponding classes of problems; "Discrete and higher mathematics", "Foreign language", "Management", "Organization economics", etc. Information Resources Management is a specialty, the subject area of which is the creation and transformation of information resources of organizations and public administration bodies, as well as the design and implementation of information systems in their activities. Upon graduation, I will be awarded the qualification of "Information Systems Manager-Economist". In addition, a graduate can work as a business analyst, database administrator, systems analyst, computer center economist and many others.
+                    </p>
+                </section>
+                <section class="section" id="skills">
+                    <h2 class="section-title">Skills</h2>
+                    <ul class="section-list"><li class="section-item">Web-development:<span> HTML5, C++</span></li>
+                    <li class="section-item">Version control:<span> GIT, Github</span></li>
+                    <li class="section-item">Graphics:<span>  Adobe Photoshop, Adobe Illustrator, Blender</span></li></ul>
+                </section>
+                <section class="section" id="code">
+                    <h2 class="section-title">Code</h2>
+                    <div class="blok1" id="code">
+                    <p1>Fill an array of 50 elements with odd numbers from 1 to 99. (Use the remainder-of-division operation to check for odd numbers.)
+                    <pre class="pre"><code>
+                        void VvodGai(GAI* Gai)     //ввод количества машин
+                        {
+                            cout << "Введите количество машин: ";
+                            cin >> Gai->N;
+                            while (!(cin >>Gai->N)) {        //пока не будет введено нормальное число, выполняем цикл
+                                cout << "error\n";          //сообщаем об ошибке ввода
+                                cin.clear();                //сбрасываем коматозное состояние cin
+                                fflush(stdin);
+                                break;
+                            }
+                            cout << endl;
+                            for (int i = 0; i < (Gai->N); i++)
+                            {
+                                cout << "Введите информацию о " << (i + 1) << "-ой машине\n";
+                                Gai->Car[i] = VvodCar();
+                            }
+                        }
+                    </code></p1></div></pre></section>
+                    <section class="section" id="projects">
+                    <h2 class="section-title">Projects</h2>
+                    <ul class="section-list projects">
+                    <li class="section-item">
+                    <a href="https://github.com/camcodeus/cv/blob/markdowm-cv/cv.md" target="_blanck">CV</a></li>
+            </ul></section>
+            <section class="section section-education" id="education">
+                <h2 class="section-title">Education</h2>
+                <p>Vitebsk State University</p></section>
+            </div>
+        </main>
+    <footer class="footer">
+        <div class="container footer-container">
+        <div>© 2022 <a href="https://github.com/camcodeus" class="github nav-link">camcodeus</a></div></div>
+    </footer>
+    <script src="./index.js"></script>
+</body>
+</html>
