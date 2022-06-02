@@ -1,1 +1,1 @@
-https://camcodeus.github.io/cv/cv
+https://camcodeus.github.io/cv
